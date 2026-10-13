@@ -1,0 +1,35 @@
+:root {
+  /* Paleta: azul escuro, azul elétrico, ciano, amarelo e laranja */
+  --bg-0: #050b1f;
+  --bg-1: #0a1840;
+  --bg-2: #12296a;
+  --panel: rgba(12, 28, 74, 0.82);
+  --panel-solid: #0c1c4a;
+  --panel-2: rgba(30, 58, 130, 0.55);
+  --line: rgba(130, 175, 255, 0.3);
+  --blue: #2f6bff;
+  --blue-deep: #1b3fb8;
+  --cyan: #22d3ee;
+  --yellow: #ffd23f;
+  --orange: #ff8a1f;
+  --green: #34d399;
+  --green-bg: rgba(52, 211, 153, 0.16);
+  --red: #ff7a88;
+  --red-bg: rgba(255, 107, 122, 0.16);
+  --text: #f4f7ff;
+  --muted: #b9c7ee;
+  --radius: 1.1rem;
+  --radius-sm: 0.7rem;
+  --shadow: 0 1.2rem 3rem rgba(0, 0, 0, 0.45);
+  --font: 'Trebuchet MS', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-display: 'Arial Black', 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+
+html {
+  /* ~18 px em 1920×1080: pensado para TV e projetor */
+  font-size: clamp(14px, 0.95vw, 24px);
+}
+
+html[data-recording='true'] {
+  font-size: clamp(16px, 1.12vw, 28px);
+}
